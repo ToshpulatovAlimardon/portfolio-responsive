@@ -1,0 +1,99 @@
+/* Topbar */
+.topbar {
+  background-color: #fff;
+  height: 70px;
+  box-shadow: 0 5px 10px 2px silver;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar a {
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: yellowgreen;
+}
+@media (max-width: 500px) {
+  /* Topbar */
+  .topbar {
+    height: 60px;
+  }
+  .navbar a {
+    margin: 0 7px;
+    font-size: 16px;
+  }
+}
+
+/* Header */
+.header {
+  background-color: #000;
+  width: 100%;
+  height: 90vh;
+}
+.header-wrapper {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-info {
+  width: 50%;
+  z-index: 1;
+}
+.header-info h1 {
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+.header-info h1 span {
+  font-weight: 300;
+}
+.header-info p {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #555;
+}
+.header-img {
+  width: 50%;
+}
+.header-img img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+@media (max-width: 975px) {
+  /* Header */
+  .header-info h1 {
+    font-size: 54px;
+    margin-bottom: 8px;
+  }
+  .header-info p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 725px) {
+  .header {
+    background-image: url("../images/header/1.webp");
+    background-position: center;
+    background-size: cover;
+  }
+  .header-info {
+    width: 100%;
+  }
+  .header-img img {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  /* Header */
+  .header-info h1 {
+    font-size: 44px;
+    margin-bottom: 5px;
+  }
+  .header-info p {
+    font-size: 15px;
+  }
+}
