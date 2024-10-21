@@ -22,3 +22,15 @@ body {
   font-family: "Roboto", sans-serif;
   color: #fff;
 }
+.btn {
+  background-color: yellowgreen;
+  color: #fff;
+  border-radius: 100px;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: .3s;
+}
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px silver;
+}
