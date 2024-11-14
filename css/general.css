@@ -50,6 +50,7 @@
 }
 .header-info h1 span {
   font-weight: 300;
+  display: block;
 }
 .header-info p {
   font-size: 18px;
